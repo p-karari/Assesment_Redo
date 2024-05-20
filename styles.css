@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: hsl(235, 21%, 11%);
+    font-family: sans-serif;
+    
+}
+
+
+.background {
+    background-image: url(images/bg-desktop-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 35rem;
+    font-size: 2.3rem;
+    justify-content: space-between;
+    color: white;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.new {
+    display: flex;
+    width: 35rem;
+    background-color: hsl(235, 24%, 19%);
+    padding: 14px;
+    gap: 7%;
+    border-radius: 6px;
+}
+
+.new button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: .1px solid gray;
+    background-color: hsl(235, 21%, 11%);
+}
+
+.new input{
+    border: none;
+    background-color: hsl(235, 24%, 19%);
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    width: 36rem;
+    background-color: hsl(235, 24%, 19%);
+    padding: 10px;
+    gap: 7%;
+    border-radius: 6px;
+    
+}
+
+.task {
+    display: flex;
+    width: 35rem;
+    border-bottom: 1px solid gray; 
+    padding: 10px;
+    gap: 7%;
+    color: rgb(210, 210, 210);
+    font-weight: 600;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+/* .task p{
+    text-decoration: line-through;
+} */
+
+.task button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: .1px solid gray;
+    background-color: hsl(235, 21%, 11%);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 6px;
+    margin-top: -250px;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.footer {
+    color: rgb(157, 155, 155);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: 0.8rem;
+    background-color: hsl(235, 24%, 19%);
+    text-transform: capitalize;
+}
+
+.footer div{
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+}
