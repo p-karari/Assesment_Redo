@@ -98,7 +98,7 @@ body {
     
 }
 
-.footer {
+#footer {
     color: rgb(157, 155, 155);
     display: flex;
     justify-content: space-between;
@@ -108,7 +108,7 @@ body {
     text-transform: capitalize;
 }
 
-.footer div{
+#footer div{
     display: flex;
     gap: 10px;
     text-transform: capitalize;
